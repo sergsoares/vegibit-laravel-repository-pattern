@@ -167,6 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
+        App\repotutrepositories\BackendServiceProvider::class,
 
         /*
          * Application Service Providers...
