@@ -25,5 +25,7 @@ class HouseController extends Controller
     public function show($id)
     {
         $house = $this->house->find($id);
+
+        return $house;
     }
 }

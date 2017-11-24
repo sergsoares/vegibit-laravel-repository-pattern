@@ -10,6 +10,6 @@ class BackendServiceProvider extends ServiceProvider{
     {
         $this->app->bind(
             'App\repotutrepositories\HouseRepositoryInterface',
-            'App\repotutrepositories\DbHouseRepository');
+            'App\repotutrepositories\FileHouseRepository');
     }
 }
